@@ -1,8 +1,6 @@
 # chatbox_ttv  
-streamer chatbox for twitch.tv  
-  
-Please read the license  
-  
+Simple CSS Chatbox for twitch.tv   
+Please read the MIT license included in this repo   
 THE FILES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.  
   
 Purin Themed Chatbox   

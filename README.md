@@ -6,12 +6,13 @@ THE FILES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 ## How to Use
 1. Add a browser source in OBS  
 (If you reuse a existing browser source you may need to refresh the cache of the page)   
-![purin 1 twitch chatbox](img/0.png)   
+![browser source](img/0.png)   
 2. Paste the URL to your popout chat https://www.twitch.tv/popout/username/chat in the URL field   
 3. Paste the content of the CSS file in the Custom CSS field   
-![purin 2 twitch chatbox](img/1.png)  
+![url and css](img/1.png)  
 4. Set Width and Height   
 5. Done
+![example](img/5.png)  
 
 ## How to Customise   
  TODO   

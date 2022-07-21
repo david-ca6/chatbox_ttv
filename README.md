@@ -7,8 +7,8 @@ THE FILES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 1. Add a browser source in OBS  
 (If you reuse a existing browser source you may need to refresh the cache of the page)   
 ![browser source](img/0.png)   
-2. Paste the URL to your popout chat https://www.twitch.tv/popout/username/chat in the URL field   
-3. Paste the content of ttv.css in the Custom CSS field   
+2. Set the URL to your popout chat https://www.twitch.tv/popout/username/chat in the URL field   
+3. Remplace the content of the Custom CSS field by the content of ttv.css   
 ![url and css](img/1.png)  
 4. Set Width and Height   
 5. Done

@@ -1,56 +1,69 @@
-/* Twitch Chat Box */
+/* Twitch CSS Chat */
 /* By David_ca6 */
 /* david@ca6.dev */
 /* ca6.dev */
 
 /* THIS FILE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. */
 
-/* comment/remove the demo color set and uncoment the type of chatbox you want to use */
+/* comment/remove the demo theme set and uncoment the type of chatbox you want to use */
 /* simple customisation like changing color can easily be done, the value are in rgba(red, green, blue, alpha) the range is 0-255 (standard 32 bit color, 8bit/chanel)  */
 
-/* demo purin chatbox */
-:root {--bgColor: rgba(0,0,0,0);--bgImage: url(https://hosting.ca6.dev/stream/chatbox/img/purin1.png);--nameTxtColor: rgba(94, 10, 10, 255);--msgTxtColor: rgba(94, 10, 10, 255);--borderSize: 0px;--borderColor: rgba(94, 10, 10, 255);--msgWidth: fit-content;--msgAnim: slide;}
+/* demo purin theme */
+:root {--bgColor: rgba(0,0,0,0);--bgImage: url(https://hosting.ca6.dev/stream/chatbox/img/purin1.png);--nameTxtColor: rgba(115, 60, 18, 255);--msgTxtColor: rgba(115, 60, 18, 255);--borderSize: 0px;--borderColor: rgba(115, 60, 18, 255);--msgWidth: fit-content;--msgAnim: slide;}
 
-/* purin Chatbox*/
+
+/* purin A dynamic width theme*/
 /*
-:root {--bgColor: rgba(0,0,0,0);--bgImage: url(https://hosting.ca6.dev/stream/chatbox/img/purin1.png);--nameTxtColor: rgba(94, 10, 10, 255);--msgTxtColor: rgba(94, 10, 10, 255);--borderSize: 0px;--borderColor: rgba(94, 10, 10, 255);--msgWidth: fit-content;--msgAnim: slide;}
+:root {--bgColor: rgba(0,0,0,0);--bgImage: url(https://hosting.ca6.dev/stream/chatbox/img/purin1.png);--nameTxtColor: rgba(115, 60, 18, 255));--msgTxtColor: rgba(115, 60, 18, 255);--borderSize: 0px;--borderColor: rgba(115, 60, 18, 255));--msgWidth: fit-content;--msgAnim: slide;}
 */
-/* purin Chatbox*/
+/* purin A static width theme*/
 /*
-:root {--bgColor: rgba(0,0,0,0);--bgImage: url(https://hosting.ca6.dev/stream/chatbox/img/purin1.png);--nameTxtColor: rgba(94, 10, 10, 255);--msgTxtColor: rgba(94, 10, 10, 255);--borderSize: 0px;--borderColor: rgba(94, 10, 10, 255);--msgWidth: auto;--msgAnim: slide;}
-*/
-/* purin Chatbox*/
-/*
-:root {--bgColor: rgba(0,0,0,0);--bgImage: url(https://hosting.ca6.dev/stream/chatbox/img/purin2.png);--nameTxtColor: rgba(94, 10, 10, 255);--msgTxtColor: rgba(94, 10, 10, 255);--borderSize: 0px;--borderColor: rgba(94, 10, 10, 255);--msgWidth: fit-content;--msgAnim: slide;}
-*/
-/* purin Chatbox*/
-/*
-:root {--bgColor: rgba(0,0,0,0);--bgImage: url(https://hosting.ca6.dev/stream/chatbox/img/purin2.png);--nameTxtColor: rgba(94, 10, 10, 255);--msgTxtColor: rgba(94, 10, 10, 255);--borderSize: 0px;--borderColor: rgba(94, 10, 10, 255);--msgWidth: auto;--msgAnim: slide;}
+:root {--bgColor: rgba(0,0,0,0);--bgImage: url(https://hosting.ca6.dev/stream/chatbox/img/purin1.png);--nameTxtColor: rgba(115, 60, 18, 255);--msgTxtColor: rgba(115, 60, 18, 255));--borderSize: 0px;--borderColor: rgba(115, 60, 18, 255);--msgWidth: auto;--msgAnim: slide;}
 */
 
-/* blue Chatbox*/
+/* purin B dynamic width theme*/
+/*
+:root {--bgColor: rgba(0,0,0,0);--bgImage: url(https://hosting.ca6.dev/stream/chatbox/img/purin2.png);--nameTxtColor: rgba(115, 60, 18, 255);--msgTxtColor: rgba(115, 60, 18, 255);--borderSize: 0px;--borderColor: rgba(115, 60, 18, 255);--msgWidth: fit-content;--msgAnim: slide;}
+*/
+/* purin B static width theme*/
+/*
+:root {--bgColor: rgba(0,0,0,0);--bgImage: url(https://hosting.ca6.dev/stream/chatbox/img/purin2.png);--nameTxtColor: rgba(115, 60, 18, 255);--msgTxtColor: rgba(115, 60, 18, 255);--borderSize: 0px;--borderColor: rgba(115, 60, 18, 255);--msgWidth: auto;--msgAnim: slide;}
+*/
+
+/* blue dynamic width theme*/
 /*
 :root {--bgColor: rgba(168,190,208,255);--bgImage: url();--nameTxtColor: rgba(0, 0, 0, 255);--msgTxtColor: rgba(255, 255, 255, 255);--borderSize: 2px;--borderColor: rgba(0, 0, 0, 255);--msgWidth: fit-content;--msgAnim: slide;}
 */
-/* blue Chatbox*/
+/* blue static width theme*/
 /*
 :root {--bgColor: rgba(168,190,208,255);--bgImage: url();--nameTxtColor: rgba(0, 0, 0, 255);--msgTxtColor: rgba(255, 255, 255, 255);--borderSize: 2px;--borderColor: rgba(0, 0, 0, 255);--msgWidth: auto;--msgAnim: slide;}
 */
-/* pink Chatbox*/
+
+/* pink dynamic width theme*/
 /*
-:root {--bgColor: rgba(202, 161, 161, 255);--bgImage: url();--nameTxtColor: rgba(255, 255, 255, 255);--msgTxtColor: rgba(255, 255, 255, 255);--borderSize: 2px;--borderColor: rgba(181, 144, 144, 255);--msgWidth: fit-content;--msgAnim: slide;}
+:root {--bgColor: rgba(242, 145, 188, 255);--bgImage: url();--nameTxtColor: rgba(255, 255, 255, 255);--msgTxtColor: rgba(255, 255, 255, 255);--borderSize: 2px;--borderColor: rgba(234, 55, 136, 255);--msgWidth: fit-content;--msgAnim: slide;}
 */
-/* pink Chatbox*/
+/* pink static width theme*/
 /*
-:root {--bgColor: rgba(202, 161, 161, 255);--bgImage: url();--nameTxtColor: rgba(255, 255, 255, 255);--msgTxtColor: rgba(255, 255, 255, 255);--borderSize: 2px;--borderColor: rgba(181, 144, 144, 255);--msgWidth: auto;--msgAnim: slide;}
+:root {--bgColor: rgba(242, 145, 188, 255);--bgImage: url();--nameTxtColor: rgba(255, 255, 255, 255);--msgTxtColor: rgba(255, 255, 255, 255);--borderSize: 2px;--borderColor: rgba(234, 55, 136, 255);--msgWidth: auto;--msgAnim: slide;}
 */
-/* green Chatbox*/
+
+/* green dynamic width theme*/
 /*
-:root {--bgColor: rgba(98,147,79, 255);--bgImage: url();--nameTxtColor: rgba(255, 255, 255, 255);--msgTxtColor: rgba(255, 255, 255, 255);--borderSize: 2px;--borderColor: rgba(32, 102, 4, 255);--msgWidth: fit-content;--msgAnim: slide;}
+:root {--bgColor: rgba(73,171,129, 255);--bgImage: url();--nameTxtColor: rgba(255, 255, 255, 255);--msgTxtColor: rgba(255, 255, 255, 255);--borderSize: 2px;--borderColor: rgba(49, 114, 86, 255);--msgWidth: fit-content;--msgAnim: slide;}
 */
-/* green Chatbox*/
+/* green static width theme*/
 /*
-:root {--bgColor: rgba(98,147,79, 255);--bgImage: url();--nameTxtColor: rgba(255, 255, 255, 255);--msgTxtColor: rgba(255, 255, 255, 255);--borderSize: 2px;--borderColor: rgba(32, 102, 4, 255);--msgWidth: auto;--msgAnim: slide;}
+:root {--bgColor: rgba(73,171,129, 255);--bgImage: url();--nameTxtColor: rgba(255, 255, 255, 255);--msgTxtColor: rgba(255, 255, 255, 255);--borderSize: 2px;--borderColor: rgba(49, 114, 86, 255);--msgWidth: auto;--msgAnim: slide;}
+*/
+
+/* white-pink dynamic width theme*/
+/*
+:root {--bgColor: rgba(255, 255, 255, 255);--bgImage: url();--nameTxtColor: rgba(234, 55, 136, 255);--msgTxtColor: rgba(234, 55, 136, 255);--borderSize: 2px;--borderColor: rgba(234, 55, 136, 255);--msgWidth: fit-content;--msgAnim: slide;}
+*/
+/* white-pink static width theme*/
+/*
+:root {--bgColor: rgba(255, 255, 255, 255);--bgImage: url();--nameTxtColor: rgba(234, 55, 136, 255);--msgTxtColor: rgba(234, 55, 136, 255);--borderSize: 2px;--borderColor: rgba(234, 55, 136, 255);--msgWidth: auto;--msgAnim: slide;}
 */
 
 /* slide animation */

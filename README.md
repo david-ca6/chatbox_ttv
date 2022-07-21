@@ -1,8 +1,11 @@
 # chatbox_ttv  
 Simple CSS Chatbox for twitch.tv   
+
+# License
 Please read the MIT license included in this repo   
 THE FILES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.  
-  
+When used as a stream asset credit is NOT required.   
+
 ## How to Use
 1. Add a browser source in OBS  
 (If you reuse a existing browser source you may need to refresh the cache of the page)   

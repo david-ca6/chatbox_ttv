@@ -146,6 +146,11 @@ div.fYQDgF {
     display: none!important;
 }
 
+/* empty panel for sub/bits leaderboard*/
+div.gDuGLD{
+    display: none !important;
+}
+
 /* emote*/
 div.chat-line__message--emote-button {
     margin-left: -0.5rem!important;

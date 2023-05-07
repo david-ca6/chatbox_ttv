@@ -131,8 +131,10 @@ span[data-test-selector="chat-message-separator"] {
     margin-top: -2.25rem!important;
 }
 
-/* chat message */
-span.text-fragment {
+span[data-a-target="chat-line-message-body"] {
+    display: block!important;
+    color: rgba(0,0,0,0)!important;
+
     color: var(--msgTxtColor)!important;
     font-size: 110%!important;
     margin-top: 0.0rem!important;
@@ -146,13 +148,17 @@ div.fYQDgF {
     display: none!important;
 }
 
+div.jaGgya {
+    display: none!important;
+}
+
 /* empty panel for sub/bits leaderboard*/
 div.gDuGLD{
     display: none !important;
 }
 
 /* empty panel for sub/bits leaderboard*/
-div.jaGgya{
+div.1xcs6mc{
     display: none !important;
 }
 
